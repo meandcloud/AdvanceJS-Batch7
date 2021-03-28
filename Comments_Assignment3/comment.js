@@ -3,6 +3,6 @@
 // let program = "CNC"
 
 
-// function myfunc(){
-//     console.log(fname)
-// }
+/*function myfunc(){
+    console.log(fname)
+}*/
