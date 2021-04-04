@@ -1,0 +1,49 @@
+.heading{
+    color: #56C6A9;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+li{
+    list-style-type: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+   
+}
+
+li::before{
+    content: "\2713";
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    
+   
+   
+}
+
+.delete{
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+/* #del{
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 5px;
+    border: none;
+} */
+
+
+
